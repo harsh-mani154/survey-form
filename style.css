@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+
+body {
+    background-color: darkgreen;
+    font-family: Verdana;
+    text-align: center;
+}
+
+form {
+    background-color: aqua;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control input, .form-control select {
+    border: 1px solid cyan;
+    border-radius: 5px;
+    font-size: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%; /* Corrected */
+}
+
+button{
+    background-color:crimson;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>My Survey Form</title> 
+</head>
+
+<body>
+    <h1>Survey Form</h1> 
+    <p>Feel free to answer the questions below based on your own experience and opinion. If you are not comfortable answering a particular question, please skip it by answering "No". Each answer would be very appreciated. Thank you for your time.</p>
+    
+    <form> 
+        <div class="form-control">
+            <label>Your Name</label>
+            <input type="text" name="name" placeholder="Enter your name">
+        </div>
+
+        <div class="form-control">
+            <label>Your Email Address</label>
+            <input type="email" name="email" placeholder="Enter your email address">
+        </div>
+
+        <div class="form-control">
+            <label>Your Phone Number</label>
+            <input type="text" name="number" placeholder="Enter your phone number">
+        </div>
+
+        <div class="form-control">
+            <label>Where do you live</label>
+            <select name="residence"> <!-- Added name attribute -->
+                <option value="Delhi">delhi</option>
+                <option value="Kolkata">kolkata</option>
+                <option value="Mumbai">mumbai</option> 
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>Age</label>
+            <textarea name="age" placeholder="Enter your age here"></textarea>
+            
+            <input type="radio" name="age" value="15-20">15-20 
+            <input type="radio" name="age" value="20-30">20-30
+            <input type="radio" name="age" value="31-40">31-40
+            <input type="radio" name="age" value="41-50">41-50
+            <input type="radio" name="age" value="prefer not to say">Perfer not to say
+        </div>
+
+
+
+        <div class="form-control">
+            <label>How would you rate your proficiency in coding</label>
+            <input type="radio" name="proficiency" value="beginner"> Beginner 
+            <input type="radio" name="proficiency" value="intermediate"> Intermediate 
+            <input type="radio" name="proficiency" value="advanced"> Advanced 
+        </div>
+
+        <div class="form-control">
+            <label>Have you ever appeared in any coding contest</label>
+            <input type="radio" name="coding_contest" value="yes"> Yes 
+            <input type="radio" name="coding_contest" value="no"> No 
+        </div>
+
+        <div class="form-control">
+            <label>Have you ever contributed to open source projects</label>
+            <input type="radio" name="open_source" value="yes"> Yes <!-- Added -->
+            <input type="radio" name="open_source" value="no"> No <!-- Added -->
+        </div>
+
+        <div class="form-control">
+            <label>Discuss what drives your passion for coding and outline your aspirations in the field</label>
+            <textarea name="passion" placeholder="Enter your discussion here"></textarea> 
+        </div>
+
+        <div class="form-control">
+            <label>What are some of the challenges you face while coding?</label>
+            <textarea name="challenges" placeholder="Enter your challenges here"></textarea> 
+        </div>
+
+        <div class="form-control">
+            <label>Please list the Data Structures you have a strong understanding of.</label>
+            <textarea name="data_structures" placeholder="Enter the list here"></textarea> 
+        </div>
+
+        <button type="submit">Submit</button>
+    </form> 
+</body>
+
+</html>
